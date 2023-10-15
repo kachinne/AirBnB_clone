@@ -1,0 +1,7 @@
+#!/usr/bin/python3
+"""__init__methods for models"""
+from model.engine.file_storage import FileStorage
+
+
+storage = FileStorage()
+storage.reload()
