@@ -15,13 +15,13 @@ def __init__(self, *args,**kwargs):
     *args (any): Used.
     **kwargs (dict): key/value pairs of attributes.
     """
-    tformat = "%Y-%m-%dT%H:%M:%S.%f"
+    tform = "%Y-%m-%dT%H:%M:%S.%f"
     self.id = str(uuid4())
     self.created_at = datetime.today()
     self-updated_at = datetime.today()
     if len(kwargs) != 0:
         for k, v in kwargs.items():
-            self.__dict__[k] = datetime.strptime(v, tformat)
+            self.__dict__[k] = datetime.strptime(v, tform)
         else:
             self.__dict__[k] = v
         else:
