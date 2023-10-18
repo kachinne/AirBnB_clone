@@ -1,2 +1,3 @@
-A project on AirBnB in Alx done in a team  by:
-Nwabueze Onyekachi Bonaventure 
+# People that contribute to this project
+
+Nwabueze Onyekachi Bonaventure<nobbnet@gmail.com>
